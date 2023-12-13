@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Register </title>
+<style>
+        body{
+            background-image: linear-gradient(120deg,rgb(246, 93, 236),rgb(134, 247, 221));
+        }
+        .container{
+            width: 700px;
+            height: 1100px;
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 30px;
+            box-shadow: 0px 0px 10px 2px;
+            text-align: left;
+
+        }
+        h4{
+            font-size: 30px;
+            text-align: center;
+        }
+        .inputs{
+            width: 330px;
+            height: 40px;
+            position: relative;
+            left: 15px;
+            border-radius: 13px;
+            border-right:1px solid white;
+            border-left: 1px solid white;
+            border-top: 0px solid white;
+            border-bottom: 3px solid black;
+            font-size: 20px;
+        }
+        .gender{
+            position: relative;
+            left: 15px;
+            font-size: 20px;
+        }
+        #label{
+            font-size: 16px;
+        }
+        #actype{
+            font-size: 20px;
+            position: relative;
+            left: 15px;
+        }
+        .type{
+            position: relative;
+            left: 20px;
+            font-size: 20px;
+        }
+        #state{
+            position: relative;
+            left: 15px;
+            font-size: 20px;
+        }
+        #contry{
+            position: relative;
+            left: 24px;
+            font-size: 20px;
+        }
+        #slist{
+            width: 270px;
+            height: 40px;
+            border-radius: 13px;
+            position: relative;
+            left: 20px;
+            font-size: 17px;
+        }
+        #clist{
+            width: 245px;
+            height: 40px;
+            border-radius: 13px;
+            position: relative;
+            left: 25px;
+            font-size: 17px;
+        }
+        #button{
+            position: relative;
+            top: 50px;
+            left: 180px;
+        }
+        #button:hover{
+            background-color: lightgray;
+        }
+        
+    </style>
+</head>
+<body>
+<center>
+    <div class="container">
+        <form action="register">
+            <h4><b>Register Form</b></h4>
+            <input class="inputs" type="text" name="firstName" placeholder="Enter First Name" required>
+            <input class="inputs" type="text" name="lastName" placeholder="Enter Last Name" required>
+            <br><br><br>
+            <input class="inputs" type="number" name="accountNo" placeholder="Enter Account No" required>
+            <input class="inputs" type="text" name="accountType" placeholder="Enter Account type" required>
+            <br><br><br>
+            <input class="inputs" type="text" name="branchName" placeholder="Enter Branch Name" required>
+            <input class="inputs" type="number" name="ifscCode" placeholder="Enter IFSC Code" required>
+            <br><br><br>
+            <input class="inputs" type="tel" name="phone" minlength="10" maxlength="10" placeholder="Enter Mobile Number" required>
+            <input class="inputs" type="email" name="email" placeholder="Enter Email" required>
+            <br><br><br>
+            <input class="inputs" type="date" name="dob" placeholder="Enter DOB" required>
+            <input class="inputs" type="text" name="gender" placeholder="Enter your Gender" required>
+            <br><br><br>
+            <input class="inputs" type="password" name="password" placeholder="Enter password" required>
+            <br><br><br>
+            <input class="inputs" type="text" name="address" placeholder="Enter Address" required>
+            <input class="inputs" type="text" name="area" placeholder="Enter Area" required>
+            <br><br><br>
+            <input class="inputs" type="text" name="city" placeholder="Enter City" required>
+            <input class="inputs" type="number" name="pincode" placeholder="Enter Pincode" required>
+            <br><br><br>
+            <input class="inputs" type="text" name="state" placeholder="Enter State" required>
+            <input class="inputs" type="text" name="country" placeholder="Enter Country" required>
+            <br><br><br>
+            <input id="button" class="inputs" type="submit" value="Register">
+        </form>
+    </div>
+</center>
+
+</body>
+</html>
